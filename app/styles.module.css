@@ -1,0 +1,23 @@
+.section {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "slotOne slotThree"
+    "slotTwo slotFour";
+}
+
+.slotOne {
+  grid-area: slotOne;
+}
+
+.slotTwo {
+  grid-area: slotTwo;
+}
+
+.slotThree {
+  grid-area: slotThree;
+}
+
+.slotFour {
+  grid-area: slotFour;
+}
